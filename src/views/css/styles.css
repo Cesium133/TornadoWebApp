@@ -1,0 +1,50 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  height: 100px;
+  text-align: center
+}
+
+#viewDiv  {
+  height: calc(100% - 162px);
+}
+
+#sidebar {
+  z-index: 99;
+  position: absolute;
+  top: 162px;
+  /* height:calc(100% - 150px); */
+  bottom: 0;
+  right: 2.5%;
+  background: rgba(176, 204, 231, 0.4);
+  width: 320px;
+  padding: 2.0rem;
+  color: white;
+}
+
+#sidebar h5 {
+  float: left;
+  clear: left;
+}
+
+#state, #efNum {
+  float: right;
+}
+
+.vals {
+  font-weight: bolder;
+}
+
+#highlight {
+  color: #68f97e;
+  font-weight: bolder;
+}
+
+footer {
+  font-size:10px
+}
